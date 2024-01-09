@@ -2,6 +2,7 @@
 # PRÁCTICA 2 DE FSI
 > - Redes neuronales aplicadas a clasificación de conjuntos de imágenes
 > - Realizado por Carlos Alonso Rodríguez e Imanol Quintero Bermúdez
+> - [Enlace al notebook de Kaggle](https://www.kaggle.com/code/imanolqb/vegetables-recognition-final-ulpgc)
 
 Esta práctica tiene como objetivo el desarrollo de una red neuronal efectiva para la clasificación de conjuntos de imágenes. Para lograrlo, se busca comprender y aplicar los conceptos esenciales de aprendizaje profundo, desde la selección adecuada de la arquitectura de red hasta la implementación de técnicas de preprocesamiento de datos. Se pretende entrenar la red utilizando un conjunto diverso de imágenes, permitiendo que el modelo aprenda a reconocer patrones y características distintivas en las diferentes clases de interés. Además, se busca optimizar los hiperparámetros del modelo y evaluar su rendimiento utilizando métricas pertinentes. Al finalizar la práctica, se espera no solo haber creado una red neuronal capaz de clasificar imágenes con precisión.
 
