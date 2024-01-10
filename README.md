@@ -37,3 +37,8 @@ A continuación, se muestran los valores de precisión y la gráfica de pérdida
 Finalmente, se ha decidido elegir los hiperparámetros de la última ejecución, pues parecen ser los más avanzados en términos de exactitud.
 Cabe destacar que se ha generado la matriz de confusión, que ayuda a evaluar el rendimiento de los modelos de aprendizaje automático, y que proporciona una visión detallada de su eficacia para cada clase.
 ![Sexta ejecución, matriz de confusión, figura 2](./images/6c.png)
+
+## Data Augmentation
+Como mejora del proyecto, se ha propuesto añadir un método avanzado para un mejor rendimiento de la red neuronal aplicada al conjunto de imágenes.
+Data Augmentation adopta el enfoque de generar más datos de entrenamiento a partir de nuestros datos disponibles, para conjuntos de imágenes muy pequeños (aunque no es el caso de prueba). En el caso de imágenes, esto lo consigue aplicando una serie de transformaciones aleatorias a la imagen que producen nuevas imágenes de aspecto creíble. El objetivo es que en el momento del entrenamiento, nuestro modelo nunca verá exactamente la misma imagen en las diferentes epochs. Esta idea simple, pero potente, ayuda a exponer el modelo a más aspectos de los datos y a generalizar mejor.
+En el modelo propuesto, los cambios que lleva a cabo el método avanzado se supeditan a volteos horizontales, desplazamiento en anchura y desplazamiento en altura.
