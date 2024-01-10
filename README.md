@@ -16,24 +16,24 @@ No obstante, para validar los hiperparámetros elegidos, se han realizado divers
 A continuación, se muestran los valores de precisión y la gráfica de pérdida y precisión obtenida para las diferentes combinaciones de hiperparámetros probados:
 
 - 1ª ejecución, con capas convolutivas a 32, 64 y 128, *Max Pooling* a 2, *Dense* a 128:
-  ![Primera ejecución, figura 1](./1a.png)
-  ![Primera ejecución, figura 2](./1b.png)
+  ![Primera ejecución, figura 1](./images/1a.png)
+  ![Primera ejecución, figura 2](./images/1b.png)
 - 2ª ejecución, con capas convolutivas a 32, 64 y 128, *Max Pooling* a 2, *Dense* a 128:
-  ![Segunda ejecución, figura 1](./2a.png)
-  ![Segunda ejecución, figura 2](./2b.png)
+  ![Segunda ejecución, figura 1](./images/2a.png)
+  ![Segunda ejecución, figura 2](./images/2b.png)
 - 3ª ejecución, con capas convolutivas a 32, 64 y 128, *Max Pooling* a 2, *Dense* a 128:
-  ![Tercera ejecución, figura 1](./3a.png)
-  ![Tercera ejecución, figura 2](./3b.png)
+  ![Tercera ejecución, figura 1](./images/3a.png)
+  ![Tercera ejecución, figura 2](./images/3b.png)
 - 4ª ejecución, con capas convolutivas a 32, 64 y 128, *Max Pooling* a 2, *Dense* a 128:
-  ![Cuarta ejecución, figura 1](./4a.png)
-  ![Cuarta ejecución, figura 2](./4b.png)
+  ![Cuarta ejecución, figura 1](./images/4a.png)
+  ![Cuarta ejecución, figura 2](./images/4b.png)
 - 5ª ejecución, con capas convolutivas a 32, 64 y 128, *Max Pooling* a 2, *Dense* a 128:
-  ![Quinta ejecución, figura 1](./5a.png)
-  ![Quinta ejecución, figura 2](./5b.png)
+  ![Quinta ejecución, figura 1](./images/5a.png)
+  ![Quinta ejecución, figura 2](./images/5b.png)
 - 6ª ejecución, con capas convolutivas a 32, 64 y 128, *Max Pooling* a 2, *Dense* a 128:
-  ![Sexta ejecución, figura 1](./6a.png)
-  ![Sexta ejecución, figura 2](./6b.png)
+  ![Sexta ejecución, figura 1](./images/6a.png)
+  ![Sexta ejecución, figura 2](./images/6b.png)
 
 Finalmente, se ha decidido elegir los hiperparámetros de la última ejecución, pues parecen ser los más avanzados en términos de exactitud.
 Cabe destacar que se ha generado la matriz de confusión, que ayuda a evaluar el rendimiento de los modelos de aprendizaje automático, y que proporciona una visión detallada de su eficacia para cada clase.
-![Sexta ejecución, matriz de confusión, figura 2](./6c.png)
+![Sexta ejecución, matriz de confusión, figura 2](./images/6c.png)
